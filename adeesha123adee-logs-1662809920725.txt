@@ -1,0 +1,140 @@
+2022-09-10T11:35:21.182905+00:00 app[api]: Release v2 created by user sadewofficial12@gmail.com
+2022-09-10T11:35:32.846285+00:00 app[api]: Release v3 created by user sadewofficial12@gmail.com
+2022-09-10T11:35:32.846285+00:00 app[api]: Set WELCOME_AND_GOODBYE, AUTO_BIO, INBOXBLOCK, ANTIBAD, ANTIVIEWONCE, ANTILINK, GROUP_ONLY_MSG, WELCOME_MSG, BYE_MSG, ALIVE_MSG, CALL_BLOCK, AUTO_BLOCK212, onlygroup, AUTO_REACT, OWNER_REACT_EMOJI, REACT_NUMBER, OWNER_NUMBER, OWNER_NUMBER2, BOT_NAME, OWNER_NAME, GROUP_LINK, GROUP_LINK2, PACK_NAME, CAP_NAME, IMG_URL, YT_URL config vars by user sadewofficial12@gmail.com
+2022-09-10T11:35:34.000000+00:00 app[api]: Build started by user sadewofficial12@gmail.com
+2022-09-10T11:37:13.122269+00:00 app[api]: Release v4 created by user sadewofficial12@gmail.com
+2022-09-10T11:37:13.122269+00:00 app[api]: Deploy by user sadewofficial12@gmail.com
+2022-09-10T11:37:19.000000+00:00 app[api]: Build succeeded
+2022-09-10T11:37:20.316550+00:00 app[api]: Scaled to worker@1:Free by user sadewofficial12@gmail.com
+2022-09-10T11:37:28.891051+00:00 heroku[worker.1]: Starting process with command `npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs`
+2022-09-10T11:37:29.522407+00:00 heroku[worker.1]: State changed from starting to up
+2022-09-10T11:37:36.956070+00:00 app[worker.1]: npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+2022-09-10T11:37:38.103289+00:00 app[worker.1]: 
+2022-09-10T11:37:38.103311+00:00 app[worker.1]: added 183 packages, and audited 184 packages in 8s
+2022-09-10T11:37:38.103432+00:00 app[worker.1]: 
+2022-09-10T11:37:38.103469+00:00 app[worker.1]: 12 packages are looking for funding
+2022-09-10T11:37:38.103492+00:00 app[worker.1]:   run `npm fund` for details
+2022-09-10T11:37:38.104777+00:00 app[worker.1]: 
+2022-09-10T11:37:38.104778+00:00 app[worker.1]: found 0 vulnerabilities
+2022-09-10T11:37:38.700061+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700071+00:00 app[worker.1]:                         -------------
+2022-09-10T11:37:38.700071+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700072+00:00 app[worker.1]: __/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+2022-09-10T11:37:38.700072+00:00 app[worker.1]:  _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+2022-09-10T11:37:38.700073+00:00 app[worker.1]:   _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+2022-09-10T11:37:38.700073+00:00 app[worker.1]:    _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+2022-09-10T11:37:38.700074+00:00 app[worker.1]:     _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+2022-09-10T11:37:38.700074+00:00 app[worker.1]:      _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+2022-09-10T11:37:38.700074+00:00 app[worker.1]:       _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+2022-09-10T11:37:38.700074+00:00 app[worker.1]:        _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+2022-09-10T11:37:38.700075+00:00 app[worker.1]:         _\///______________\///______________\///__\///////////////__
+2022-09-10T11:37:38.700075+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700075+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700076+00:00 app[worker.1]:                           Runtime Edition
+2022-09-10T11:37:38.700076+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700076+00:00 app[worker.1]:         PM2 is a Production Process Manager for Node.js applications
+2022-09-10T11:37:38.700076+00:00 app[worker.1]:                      with a built-in Load Balancer.
+2022-09-10T11:37:38.700077+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700077+00:00 app[worker.1]:                 Start and Daemonize any application:
+2022-09-10T11:37:38.700077+00:00 app[worker.1]:                 $ pm2 start app.js
+2022-09-10T11:37:38.700077+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700078+00:00 app[worker.1]:                 Load Balance 4 instances of api.js:
+2022-09-10T11:37:38.700078+00:00 app[worker.1]:                 $ pm2 start api.js -i 4
+2022-09-10T11:37:38.700078+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700078+00:00 app[worker.1]:                 Monitor in production:
+2022-09-10T11:37:38.700079+00:00 app[worker.1]:                 $ pm2 monitor
+2022-09-10T11:37:38.700079+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700079+00:00 app[worker.1]:                 Make pm2 auto-boot at server restart:
+2022-09-10T11:37:38.700080+00:00 app[worker.1]:                 $ pm2 startup
+2022-09-10T11:37:38.700080+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700080+00:00 app[worker.1]:                 To go further checkout:
+2022-09-10T11:37:38.700080+00:00 app[worker.1]:                 http://pm2.io/
+2022-09-10T11:37:38.700081+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700081+00:00 app[worker.1]: 
+2022-09-10T11:37:38.700081+00:00 app[worker.1]:                         -------------
+2022-09-10T11:37:38.700081+00:00 app[worker.1]: 
+2022-09-10T11:37:38.808488+00:00 app[worker.1]: [PM2] Spawning PM2 daemon with pm2_home=/app/.pm2
+2022-09-10T11:37:39.013137+00:00 app[worker.1]: [PM2] PM2 Successfully daemonized
+2022-09-10T11:37:39.027573+00:00 app[worker.1]: [PM2] Starting /app/index.js in fork_mode (1 instance)
+2022-09-10T11:37:39.044920+00:00 app[worker.1]: [PM2] Done.
+2022-09-10T11:37:39.062228+00:00 app[worker.1]: ┌─────┬──────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+2022-09-10T11:37:39.062234+00:00 app[worker.1]: │ id  │ name     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+2022-09-10T11:37:39.062235+00:00 app[worker.1]: ├─────┼──────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+2022-09-10T11:37:39.062235+00:00 app[worker.1]: │ 0   │ index    │ default     │ 2.0,1   │ fork    │ 44       │ 0s     │ 0    │ online    │ 0%       │ 20.9mb   │ u16817   │ disabled │
+2022-09-10T11:37:39.062235+00:00 app[worker.1]: └─────┴──────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+2022-09-10T11:37:39.257989+00:00 app[worker.1]: [PM2] Saving current process list...
+2022-09-10T11:37:39.266357+00:00 app[worker.1]: [PM2] Successfully saved in /app/.pm2/dump.pm2
+2022-09-10T11:37:39.829911+00:00 app[worker.1]: [TAILING] Tailing last 15 lines for [all] processes (change the value with --lines option)
+2022-09-10T11:37:39.840714+00:00 app[worker.1]: /app/.pm2/pm2.log last 15 lines:
+2022-09-10T11:37:39.840956+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: PM2 version          : 5.2.0
+2022-09-10T11:37:39.841026+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: Node.js version      : 16.17.0
+2022-09-10T11:37:39.841183+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: Current arch         : x64
+2022-09-10T11:37:39.841255+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: PM2 home             : /app/.pm2
+2022-09-10T11:37:39.841334+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: PM2 PID file         : /app/.pm2/pm2.pid
+2022-09-10T11:37:39.841391+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: RPC socket file      : /app/.pm2/rpc.sock
+2022-09-10T11:37:39.841567+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: BUS socket file      : /app/.pm2/pub.sock
+2022-09-10T11:37:39.841627+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: Application log path : /app/.pm2/logs
+2022-09-10T11:37:39.841685+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: Worker Interval      : 30000
+2022-09-10T11:37:39.841811+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: Process dump file    : /app/.pm2/dump.pm2
+2022-09-10T11:37:39.841859+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: Concurrent actions   : 2
+2022-09-10T11:37:39.841900+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: SIGTERM timeout      : 1600
+2022-09-10T11:37:39.842033+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: ===============================================================================
+2022-09-10T11:37:39.842077+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: App [index:0] starting in -fork mode-
+2022-09-10T11:37:39.842123+00:00 app[worker.1]: PM2        | 2022-09-10T11:37:39: PM2 log: App [index:0] online
+2022-09-10T11:37:39.842141+00:00 app[worker.1]: 
+2022-09-10T11:37:39.843476+00:00 app[worker.1]: /app/.pm2/logs/index-out.log last 15 lines:
+2022-09-10T11:37:39.843822+00:00 app[worker.1]: /app/.pm2/logs/index-error.log last 15 lines:
+2022-09-10T11:37:40.193937+00:00 app[worker.1]: 0|index  | Connected... {
+2022-09-10T11:37:40.193968+00:00 app[worker.1]: 0|index  |   connection: 'connecting',
+2022-09-10T11:37:40.193994+00:00 app[worker.1]: 0|index  |   receivedPendingNotifications: false,
+2022-09-10T11:37:40.194021+00:00 app[worker.1]: 0|index  |   qr: undefined
+2022-09-10T11:37:40.194046+00:00 app[worker.1]: 0|index  | }
+2022-09-10T11:37:40.194471+00:00 app[worker.1]: 0|index  | VIHANGAMD V3 CONNECTED [object Object]
+2022-09-10T11:37:41.503547+00:00 app[worker.1]: 0|index  | Device Logged Out, Please Scan Again And Run.
+2022-09-10T11:37:41.505129+00:00 app[worker.1]: 0|index  | Connected... {
+2022-09-10T11:37:41.505148+00:00 app[worker.1]: 0|index  |   connection: 'close',
+2022-09-10T11:37:41.505162+00:00 app[worker.1]: 0|index  |   lastDisconnect: {
+2022-09-10T11:37:41.505182+00:00 app[worker.1]: 0|index  |     error: Error: Connection Failure
+2022-09-10T11:37:41.505203+00:00 app[worker.1]: 0|index  |         at WebSocket.<anonymous> (/app/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:420:13)
+2022-09-10T11:37:41.505221+00:00 app[worker.1]: 0|index  |         at WebSocket.emit (node:events:513:28)
+2022-09-10T11:37:41.505241+00:00 app[worker.1]: 0|index  |         at /app/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:221:35
+2022-09-10T11:37:41.505260+00:00 app[worker.1]: 0|index  |         at Object.decodeFrame (/app/node_modules/@adiwajshing/baileys/lib/Utils/noise-handler.js:131:17)
+2022-09-10T11:37:41.505281+00:00 app[worker.1]: 0|index  |         at WebSocket.onMessageRecieved (/app/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:197:15)
+2022-09-10T11:37:41.505298+00:00 app[worker.1]: 0|index  |         at WebSocket.emit (node:events:513:28)
+2022-09-10T11:37:41.505318+00:00 app[worker.1]: 0|index  |         at Receiver.receiverOnMessage (/app/node_modules/ws/lib/websocket.js:1169:20)
+2022-09-10T11:37:41.505336+00:00 app[worker.1]: 0|index  |         at Receiver.emit (node:events:513:28)
+2022-09-10T11:37:41.505367+00:00 app[worker.1]: 0|index  |         at Receiver.dataMessage (/app/node_modules/ws/lib/receiver.js:513:14)
+2022-09-10T11:37:41.505418+00:00 app[worker.1]: 0|index  |         at Receiver.getData (/app/node_modules/ws/lib/receiver.js:446:17) {
+2022-09-10T11:37:41.505465+00:00 app[worker.1]: 0|index  |       data: [Object],
+2022-09-10T11:37:41.505506+00:00 app[worker.1]: 0|index  |       isBoom: true,
+2022-09-10T11:37:41.505552+00:00 app[worker.1]: 0|index  |       isServer: false,
+2022-09-10T11:37:41.505593+00:00 app[worker.1]: 0|index  |       output: [Object]
+2022-09-10T11:37:41.505634+00:00 app[worker.1]: 0|index  |     },
+2022-09-10T11:37:41.505825+00:00 app[worker.1]: 0|index  |     date: 2022-09-10T11:37:41.502Z
+2022-09-10T11:37:41.505847+00:00 app[worker.1]: 0|index  |   }
+2022-09-10T11:37:41.505870+00:00 app[worker.1]: 0|index  | }
+2022-09-10T11:37:41.506097+00:00 app[worker.1]: 0|index  | VIHANGAMD V3 CONNECTED [object Object]
+2022-09-10T11:37:41.506292+00:00 app[worker.1]: 0|index  | Error: Connection Closed
+2022-09-10T11:37:41.506314+00:00 app[worker.1]: 0|index  |     at sendRawMessage (/app/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:49:19)
+2022-09-10T11:37:41.506335+00:00 app[worker.1]: 0|index  |     at sendNode (/app/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:60:16)
+2022-09-10T11:37:41.506377+00:00 app[worker.1]: 0|index  |     at Object.logout (/app/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:327:19)
+2022-09-10T11:37:41.506378+00:00 app[worker.1]: 0|index  |     at EventEmitter.<anonymous> (/app/index.js:1:11576)
+2022-09-10T11:37:41.506396+00:00 app[worker.1]: 0|index  |     at EventEmitter.emit (node:events:525:35)
+2022-09-10T11:37:41.506418+00:00 app[worker.1]: 0|index  |     at EventEmitter.<anonymous> (/app/node_modules/@adiwajshing/baileys/lib/Utils/event-buffer.js:38:16)
+2022-09-10T11:37:41.506441+00:00 app[worker.1]: 0|index  |     at EventEmitter.emit (node:events:513:28)
+2022-09-10T11:37:41.506462+00:00 app[worker.1]: 0|index  |     at Object.emit (/app/node_modules/@adiwajshing/baileys/lib/Utils/event-buffer.js:78:23)
+2022-09-10T11:37:41.506487+00:00 app[worker.1]: 0|index  |     at end (/app/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:247:12)
+2022-09-10T11:37:41.506508+00:00 app[worker.1]: 0|index  |     at WebSocket.<anonymous> (/app/node_modules/@adiwajshing/baileys/lib/Socket/socket.js:420:9) {
+2022-09-10T11:37:41.506528+00:00 app[worker.1]: 0|index  |   data: null,
+2022-09-10T11:37:41.506548+00:00 app[worker.1]: 0|index  |   isBoom: true,
+2022-09-10T11:37:41.506568+00:00 app[worker.1]: 0|index  |   isServer: false,
+2022-09-10T11:37:41.506588+00:00 app[worker.1]: 0|index  |   output: {
+2022-09-10T11:37:41.506608+00:00 app[worker.1]: 0|index  |     statusCode: 428,
+2022-09-10T11:37:41.506628+00:00 app[worker.1]: 0|index  |     payload: {
+2022-09-10T11:37:41.506648+00:00 app[worker.1]: 0|index  |       statusCode: 428,
+2022-09-10T11:37:41.506668+00:00 app[worker.1]: 0|index  |       error: 'Precondition Required',
+2022-09-10T11:37:41.506688+00:00 app[worker.1]: 0|index  |       message: 'Connection Closed'
+2022-09-10T11:37:41.506719+00:00 app[worker.1]: 0|index  |     },
+2022-09-10T11:37:41.506755+00:00 app[worker.1]: 0|index  |     headers: {}
+2022-09-10T11:37:41.506790+00:00 app[worker.1]: 0|index  |   }
+2022-09-10T11:37:41.506826+00:00 app[worker.1]: 0|index  | }
